@@ -107,3 +107,43 @@ ul li span {
 ul li span:hover {
     background: #edeef0;
 }
+
+@media screen and (max-width: 400px) {
+    input {
+        padding: 15px 15px;
+        background-color: #edeef0;
+        width: 100%;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    
+    button {
+        padding: 10px 40px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        background-color: transparent;
+        padding-left: 0;
+    }
+
+    .todo-app {
+        max-width: 540px;
+        background: #fff;
+        margin: 50px auto 20px;
+        padding: 40px 20px 70px;
+        border-radius: 10px;
+    }
+    
+    ul li {
+        font-size: 14px;
+        padding: 12px 20px 12px 40px;
+    }
+
+    ul li::before {
+        height: 20px;
+        width: 20px;
+        left: 10px;
+    }
+}
